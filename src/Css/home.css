@@ -1,0 +1,31 @@
+.home{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 10px;
+}
+.home .img-con{
+    border: 2px solid black;
+}
+.home .img-con img{
+    width: 100%;
+    height: 500px;
+    transition: .5s;
+}
+.img-con img:hover,:focus{
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0);
+    transform: scale(1.04);
+}
+@media (max-width:900px){
+    .home{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:700px){
+    .home{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

@@ -1,0 +1,38 @@
+.resume-container {
+  width: 794px;
+  height: 1123px;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+
+}
+.name-con{
+    background-color: #0f3d05c8;
+    color: #ffffff;
+    text-align: center;
+}
+.name{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.name-con .num_gmail {
+    padding-bottom: 30px;
+}
+.title{
+    background-color: #0f3d05c8;
+    color: #ffffff;
+    margin: 0px;
+    padding: 7px;
+}
+.con{
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.bio{
+    margin-left: 10px;
+}
+.skill_Certifications{
+    margin-left: 10px;
+}

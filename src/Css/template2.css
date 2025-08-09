@@ -1,0 +1,59 @@
+.resume-container {
+  width: 794px;
+  height: 1123px;
+  margin: auto;
+  padding: 40px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  font-family: 'Arial', sans-serif;
+}
+.first_name{
+    color: #353d61;
+    
+}
+.end_name{
+    color: #5e7af5;
+}
+.name{
+    margin: 0px;
+}
+.num_gmail,.line{
+    margin: 0px;
+}
+.title{
+    background-color: #c5d0ff;
+    color: #000;
+    text-align: center;
+    margin: 5px;
+}
+.bio{
+    margin: 15px;
+}
+.education h3{
+    margin-bottom: 10px;
+}
+.education p{
+    margin: 0px;
+    margin-left: 20px;
+}
+.skill_Certifications{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill_Certifications h4{
+    margin: 0px;
+    margin-top: 10px;
+}
+.skill_con,.Certifications_con{
+    margin: 0px 10px;
+}
+
+.experience h4 ,p,h3{
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.project_con h3,p,h4{
+    margin: 0px;
+    margin-bottom: 10px;
+}
